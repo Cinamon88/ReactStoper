@@ -1,7 +1,12 @@
+import Container from './components/Container/Container';
+import Hero from './components/Hero/Hero'
 
-function App() {
+const App = () => {
   return (
-    <h1>Stoper</h1>
+    <Container>
+      <h1>Stoper</h1>
+      <Hero />
+    </Container>
   );
 }
 
