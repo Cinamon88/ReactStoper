@@ -1,8 +1,15 @@
 import styles from './Container.module.scss';
+import Button from '../Button/Button';
 
-const Container = props => {
+function Container () {
     return (
-        <div className={styles.container}>{props.children}</div>
+        <div className={styles.container}>
+            <div className={styles.button}>
+                <Button>Start</Button>
+                <Button>Stop</Button>
+                <Button>Reset</Button>
+            </div>
+        </div>
     );
 };
 

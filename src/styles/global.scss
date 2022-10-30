@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 
+#stoper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   background: $color-dark;
   font-family: $font-text;
@@ -17,7 +24,7 @@ body {
 :global(.container) {
   width: 90%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 @import "./typography.scss";
